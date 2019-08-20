@@ -10,9 +10,10 @@ function App() {
       <header className={styles["App-header"]}>
         <img src={logo} className={styles["App-logo"]} alt="logo" />
           <div>
-              <Button background={'red'}>First Button</Button>
-              <Button className={styles.tmp}>Second Button</Button>
-              <Button primary>Third Button</Button>
+              <Button variant={'primary'}>First Button</Button>
+              <Button variant={'error'}>Second Button</Button>
+              <Button>Non variant</Button>
+              <Button variant={'dark'}>Third Button</Button>
           </div>
       </header>
     </div>
